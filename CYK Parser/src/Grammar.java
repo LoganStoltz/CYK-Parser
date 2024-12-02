@@ -18,6 +18,12 @@ public class Grammar {
     }
 
     public List<String> getProducingNonTerminals(String rhs) {
-        return null;
+        List<String> nonTerminals = new ArrayList<>();
+        for (ProductionRule rule : rules) {
+            if (rule.rhs.equals(rhs)) {
+                nonTerminals.add(rule.lhs);
+            }
+        }
+        return nonTerminals;
     }
 }

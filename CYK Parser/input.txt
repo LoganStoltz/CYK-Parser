@@ -1,0 +1,125 @@
+10
+
+S --> AB
+S --> BC
+A --> BA
+A --> a
+B --> CC
+B --> b
+C --> AB
+C --> a
+
+2
+baaba
+baabb
+
+S --> AB
+A --> AA
+A --> AB
+A --> a
+B --> CC
+B --> b
+C --> AB
+C --> b
+
+3
+aaabb
+aabbb
+ababa
+
+S --> AB
+A --> CD
+A --> CF
+B --> EB
+B --> c
+C --> a
+D --> b
+E --> c
+F --> AD
+
+1
+aaabbbcc
+
+S --> AB
+S --> BA
+A --> CD
+A --> b
+B --> CC
+C --> a
+D --> a
+
+3
+abab
+bbaa
+aaaa
+
+S --> AB
+A --> BB
+B --> AB
+B --> a
+
+2
+aab
+abba
+
+S --> BC
+B --> AA
+B --> b
+A --> AB
+A --> a
+C --> AC
+C --> c
+
+2
+abc
+aacb
+
+S --> AB
+S --> AA
+A --> b
+A --> AB
+B --> c
+B --> a
+
+2
+bca
+abb
+
+S --> AB
+S --> AA
+A --> CD
+A --> a
+B --> DD
+B --> b
+C --> c
+D --> d
+
+2
+aacdb
+aadbb
+
+S --> AB
+S --> AC
+A --> BB
+A --> a
+B --> CB
+B --> b
+C --> a
+C --> AB
+
+3
+ab
+bbaa
+aaaabb
+
+S --> AA
+A --> AB
+A --> a
+B --> BB
+B --> b
+
+2
+aabb
+aaabbb
+
+
