@@ -9,7 +9,7 @@ public class OutputGenerator {
 
         // Iterate through each grammar in the list.
         for (Grammar grammar : grammars) {
-            // Step 1: Write the production rules of the current grammar.
+            // Step 1: Write the production rules of the curent grammar.
             for (ProductionRule rule : grammar.rules) {
                 writer.write(rule.toString()); // Convert the rule to a string and write it.
                 writer.newLine(); // Add a new line after each rule.
@@ -26,7 +26,7 @@ public class OutputGenerator {
                 writer.write(query + (result ? " is in the language." : " is NOT in the language."));
                 writer.newLine();
             }
-            writer.newLine(); // Add a blank line to separate outputs for different grammars.
+            writer.newLine(); // Add a blnk line to separate outputs for different grammars.
         }
         writer.close();
     }

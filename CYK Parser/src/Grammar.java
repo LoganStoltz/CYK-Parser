@@ -19,7 +19,7 @@ public class Grammar {
         String lhs = parts[0]; // Non-terminal on the left-hand side.
         String rhs = parts[1]; // Production on the right-hand side.
 
-        // Add the production rule to the rule list.
+        // Add the prodution rule to the rule list.
         rules.add(new ProductionRule(lhs, rhs));
 
         // The start symbol is assumed to be the LHS of the first rule.

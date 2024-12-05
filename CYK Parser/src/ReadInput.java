@@ -30,7 +30,7 @@ public class ReadInput {
                 grammar.queries.add(reader.readLine().trim());
             }
 
-            // Add the fully constructed grammar to the list of grammars.
+            // Add the fully constructed grammar to the lst of grammars.
             grammars.add(grammar);
 
             // Skip the blank line separating grammars in the input file.
