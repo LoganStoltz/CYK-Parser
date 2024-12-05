@@ -7,26 +7,25 @@ public class OutputGenerator {
     public static void generateOutput(List<Grammar> grammars, String filename) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 
-        // Iterate through each grammar in the list.
+        // iterate through every grammar.
         for (Grammar grammar : grammars) {
-            // Step 1: Write the production rules of the curent grammar.
+            // Step 1: write the production rules of the curent grammar.
             for (ProductionRule rule : grammar.rules) {
-                writer.write(rule.toString()); // Convert the rule to a string and write it.
-                writer.newLine(); // Add a new line after each rule.
+                writer.write(rule.toString());
+                writer.newLine();
             }
 
-            writer.newLine(); // Add a blank line to separate grammar rules from query results.
+            writer.newLine(); // add a blank line to separate grammar rules from query results.
 
-            // Step 2: Write the results of the queries for the current grammar.
+            // Step 2: write the results of the queries for the current grammar.
             for (String query : grammar.queries) {
                 // call the CYK algorithm to check if the query is in the language.
                 boolean result = CYKAlgorithm.parse(query, grammar);
 
-                // Write either: "query is in the language." or "query is NOT in the language."
                 writer.write(query + (result ? " is in the language." : " is NOT in the language."));
                 writer.newLine();
             }
-            writer.newLine(); // Add a blnk line to separate outputs for different grammars.
+            writer.newLine(); // blank line to separate outputs for different grammars.
         }
         writer.close();
     }
