@@ -29,11 +29,8 @@ Example input.txt:
 3
 
 S --> aSb
-
 S --> A
-
 A --> bAa
-
 A --> c
 
 3
