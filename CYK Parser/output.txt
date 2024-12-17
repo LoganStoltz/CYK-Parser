@@ -1,56 +1,56 @@
-S -> AB
-S -> BC
-A -> BA
-A -> a
-B -> CC
-B -> b
-C -> AB
-C -> a
+S --> AB
+S --> BC
+A --> BA
+A --> a
+B --> CC
+B --> b
+C --> AB
+C --> a
 
 baaba is in the language.
 baabb is NOT in the language.
 
-S -> AB
-A -> AA
-A -> AB
-A -> a
-B -> CC
-B -> b
-C -> AB
-C -> b
+S --> AB
+A --> AA
+A --> AB
+A --> a
+B --> CC
+B --> b
+C --> AB
+C --> b
 
 aaabb is in the language.
 aabbb is in the language.
 ababa is NOT in the language.
 
-S -> AB
-A -> CD
-A -> CF
-B -> EB
-B -> c
-C -> a
-D -> b
-E -> c
-F -> AD
+S --> AB
+A --> CD
+A --> CF
+B --> EB
+B --> c
+C --> a
+D --> b
+E --> c
+F --> AD
 
 aaabbbcc is in the language.
 
-S -> AB
-S -> BA
-A -> CD
-A -> b
-B -> CC
-C -> a
-D -> a
+S --> AB
+S --> BA
+A --> CD
+A --> b
+B --> CC
+C --> a
+D --> a
 
 abab is NOT in the language.
 bbaa is NOT in the language.
 aaaa is in the language.
 
-S -> AB
-A -> BB
-B -> AB
-B -> a
+S --> AB
+A --> BB
+B --> AB
+B --> a
 
 aab is NOT in the language.
 abba is NOT in the language.
