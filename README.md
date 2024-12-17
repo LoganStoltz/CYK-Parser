@@ -25,11 +25,15 @@ This program assumes that:
 - The text file input.txt follows the input inscructions.
 
 Example input.txt:
+
 3
 
 S --> aSb
+
 S --> A
+
 A --> bAa
+
 A --> c
 
 3
