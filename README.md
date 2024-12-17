@@ -26,28 +26,34 @@ This program assumes that:
 
 Example input.txt:
 3
+
 S --> aSb
 S --> A
 A --> bAa
 A --> c
+
 3
 abcab
 aabcabb
 aabac
+
 S --> aB
 S --> aaC
 B --> aB
 B --> bc
 C --> abC
 C --> a
+
 1
 aaabb
+
 S --> AB
 S --> cS
 A --> aA
 A --> λ
 B --> bBAd
 B --> λ
+
 2
 caabbdad
 aabbbabdad
