@@ -14,7 +14,7 @@ Input: a text file called "input.txt" located in the project's base directory (u
 - The next line is blank
 - If there is a second grammar, the next lines will contain the productions
 - (Continue this progression until end-of-file)
-- Example at the bottom
+- Example input.txt is in the repo.
 
 This program assumes that:
 - All nonterminals will be a single uppercase letter
@@ -23,38 +23,3 @@ This program assumes that:
 - Arrows will be made up of the exact string "-->"
 - The first grammar production left hand side is the start nonterminal (even if it is not 'S')
 - The text file input.txt follows the input inscructions.
-
-Example input.txt:
-
-3
-
-S --> aSb
-S --> A
-A --> bAa
-A --> c
-
-3
-abcab
-aabcabb
-aabac
-
-S --> aB
-S --> aaC
-B --> aB
-B --> bc
-C --> abC
-C --> a
-
-1
-aaabb
-
-S --> AB
-S --> cS
-A --> aA
-A --> λ
-B --> bBAd
-B --> λ
-
-2
-caabbdad
-aabbbabdad
